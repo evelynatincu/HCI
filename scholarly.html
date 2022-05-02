@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="scholarly_style.css">
+    <title>Scholarly HTML</title>
+</head>
+
+<body prefix="schema: http://schema.org" itemscope="" itemtype="http://schema.org/WebPage">
+    <h1>MoviePicker - Scholarly </h1>
+    <section typeof="sa:AuthorsList">
+        <h2>Author</h2>
+            <li typeof="sa:ContributorRole" property="schema:author">
+                <a typeof="schema:Person" href="https://github.com/evelynatincu">
+                    <meta property="schema:givenName" content="Evelyna" />
+                    <meta property="schema:familyName" content="Tincu" />
+                    <span property="schema:name">Evelyna Tincu</span>
+                </a>
+                <ul>
+                    <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                        <p>E-mail: tincu_evelyna@yahoo.com</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <h2>Content</h2>
+    <ul>
+        <li><a href="#introducere">Introduction</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#scop">1.1 Purpose</a></li>
+        <li><a href="#audienta">1.2 Target Audience</a></li>
+        <li><a href="#referinte">1.3 References</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="#descriere">Description</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#perspectiva">1.1 Product perspective</a></li>
+        <li><a href="#functionalitati-produs">1.2 Product functionalities</a></li>
+        <li><a href="#categorii">1.3 User categories</a></li>
+        <li><a href="#mediu">1.4 Operating environment</a></li>
+        <li><a href="#design">1.5 Design and implementation constraints</a></li>
+    </ul>
+    <ul>
+        <li><a href="#cerinte-ext">External requirements</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#interfata-utilizator">1.1 User interface</a></li>
+        <li><a href="#interfata-soft">1.2 Software interface</a></li>
+        <li><a href="#interfata-comunicare">1.3 Communication interface</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="#functionalitati">Functionalities</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#autentif-inreg">1.1 Log In/Sign Up</a></li>
+        <li><a href="#realizare-programare">1.2 Genres</a></li>
+        <li><a href="#admin-cereri">1.3 Top 10 Today</a></li>
+        <li><a href="#admin-stocuri">1.4 Invite Friends</a></li>
+        <li><a href="#admin-comenziF">1.5 Movie Recommendations Test</a></li>
+    </ul>
+    <ul>
+        <li><a href="#cerinte">Non-functional requirements</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#bibliografie">Bibliography</a> </li>
+    </ul>
+
+    <article id="article" typeof="schema:ScholarlyArticle" resource="#">
+        <section typeof="sa:ScholarlyArticle" role="doc-introduction">
+            <h2 id="introducere">Introduction</h2>
+            <h3 id="scop">1.1 Purpose</h3>
+            <p>
+                The MoviePicker site is a very simple and easy to understand site which offers users movie recommendations based on their choices.
+                Its main purpose is to filter what the user selects and recommend movies that fit those filters.
+            </p>
+            <h3 id="audienta">1.2 Target Audience</h3>
+            <p>
+                This site is very simple, with suggestive menus, making it easy to understand for users. So, the target audience is those who wish to 
+                relax and watch a good movie.
+            </p>
+            <h3 id="referinte">1.3 References</h3>
+            <p>For building an easy and attractive interface, this site was used:</p>
+            <a href="https://www.w3schools.com/css/">w3schools.com</a>
+        </section>
+
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="descriere">Description</h2>
+            <h3 id="perspectiva">1.1 Product perspective</h3>
+            <p>
+                The product aims at helping people find out what movie to watch when they want and need to relax for a few hours.
+            </p>
+            <h3 id="functionalitati-produs">1.2 Product functionalities</h3>
+            <p>
+                With this site, the user can take a test which results in a movie recommendation, see a list of movies of a specific genre and
+                share the website with their friends.
+            </p>
+            <h3 id="categorii">1.3 User categories</h3>
+            <p>
+                The website can be used by anyone who has minimum knowledge about navigating on a website, since it is very simple to use
+                and understand.
+            </p>
+            <h3 id="mediu">1.4 Operating environment</h3>
+            <p>
+                MoviePicker is a WEB application which uses HTML and CSS, so it can be run on any browser.
+            </p>
+            <h3 id="design">1.5 Design and implementation constraints</h3>
+            <p>
+                The only constraints there are, are the ones for the Invite Friends option in the navigation bar, which allows the user to share the URL 
+                and invite people via Facebook and Instagram.
+            </p>
+        </section>
+
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="cerinte-ext">External requirements</h2>
+            <h3 id="interfata-utilizator">1.1 User interface</h3>
+            <p> Main Page </p>
+            <img src="./design/main-page.png" alt="sign_up" style="width:600px;">
+            <p> Movie Recommendations Test </p>
+            <img src="./design/recommendation-test.png" alt="sign_up" style="width:600px;">
+            <p> Genres </p>
+            <img src="./design/genres.png" alt="sign_up" style="width:600px;">
+            <p> Log In </p>
+            <img src="./design/log-in.png" alt="login" style="width:600px;">
+            <p> Sign Up </p>
+            <img src="./design/sign-up.png" alt="sign_up" style="width:600px;">
+
+            <h3 id="interfata-soft">1.2 Software interface</h3>
+            <p>
+                The website connects to a relational database in order to store the user's data and the list of movies.
+            </p>
+            <h3 id="interfata-comunicare">1.3 Communication interface</h3>
+            <p>
+                The user and the server both use the HTTP communication protocol to interact.
+            </p>
+        </section>
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="functionalitati">Functionalities</h2>
+            <h3 id="autentif-inreg">1.1 Log In/Sign Up</h3>
+            <p>
+                The user who already has an account will enter the e-mail and the password for logging in.
+                The user who doesn't have an account will enter besides e-mail and password, first and last name and will have to retype
+                the password for confirmation in order to create an account.
+                The data the user enters will be sent to the server.
+            </p>
+            <h3 id="realizare-programare">1.2 Genres</h3>
+            <p>
+                The user has the option of choosing which genre they like and after they click the genre they want, there will be displayed
+                a list of movies of the selected genre.
+            </p>
+            <h3 id="admin-cereri">1.3 Top 10 Today</h3>
+            <p>
+                In this section, there is a top which contains 10 popular movies of the day. The top is based on the views the newest movies
+                have.
+            </p>
+            <h3 id="admin-stocuri">1.4 Invite Friends</h3>
+            <p>
+                Here, the user can share the URL and invite friends via social media (Facebook and Instagram).
+            </p>
+            <h3 id="admin-comenziF">1.5 Movie Recommendations Test</h3>
+            <p>
+                The user will have the option to take a test which consists of answering a few questions by clicking an option or checking
+                some boxes. In the end, there will be a movie recommended based on the selections the user has done.
+            </p>
+        </section>
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="cerinte">Non-functional requirements</h2>
+            <p>The WEB application is a safe one, the possible problems coud appear because of the database used.</p>
+            <p>The application will be protected against the SQL-injection attacks.</p>
+        </section>
+        <section typeof="sa:ReferenceList" role="doc-bibliography">
+            <h2 id="bibliografie">Bibliography</h2>
+            <ol>
+                <li property="schema:citation" role="doc-biblioentry" typeof="schema:WebPage"
+                    resource="https://www.w3schools.com">
+                    <cite property="schema:name">
+                        <a href="https://www.w3schools.com">W3 schools</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" role="doc-biblioentry" typeof="schema:WebPage"
+                    resource="https://w3c.github.io/scholarly-html/">
+                    <cite property="schema:name">
+                        <a href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" role="doc-biblioentry" typeof="schema:WebPage"
+                    resource="https://schema.org/Person">
+                    <cite property="schema:name">
+                        <a href="https://schema.org/Person">Scholarly Person</a>
+                    </cite>
+                </li>
+            </ol>
+        </section>
+    </article>
+</body>
+
+</html>
