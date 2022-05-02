@@ -1,0 +1,13 @@
+QOC (Questions, Options, and Criteria)
+
+1. q = how do we know what movie to recommend to the user?
+   o = the user has to answer a few questions using the "Start Now" button on the main page, questions based on the users mood, what genre they like etc. and in the end, there will be displayed a movie recommended based on those questions answered
+   c = the task is easy, the user has to press a button or check some boxes
+
+2. q = how do we know what are the top 10 today movies?
+   o = when the user clicks on "Top 10 Today", they will get a list with the top 10 most popular movies today in the world, based on the views
+   c = the user can inform themselves about the most popular movies at the moment in the world
+
+3. q = how do we know what movies to display after the user clicks on a specific genre?
+   o = the user reads and clicks on a genre that they find more interesting than the other genres, then, a list of movies with the selected genre will appear
+   c = a dropdown list is easy to understand and readable for the user 
